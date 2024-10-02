@@ -173,6 +173,23 @@ background: rgb(255, 255, 255);
     font-weight: 500;
     padding-top:0;
 }
+
+
+.footer{
+    border-radius: 8px;
+    width: 1440px;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 240px;
+    text-align: center;
+
+background: rgb(255, 244, 231);
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 400;
+    padding:  20px 20px;
+}
 /* responsive media queries */
 @media screen and (max-width:576px) {
     
@@ -201,7 +218,13 @@ background: rgb(255, 255, 255);
         position: static;
         max-width: 300px;
     }
-
+   .footer
+   {border-radius: 8px;
+    width: 140px;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 240px;
+    text-align: center;
     
     
 }
